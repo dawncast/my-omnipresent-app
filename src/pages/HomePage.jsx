@@ -1,5 +1,9 @@
+import React from 'react';
+
 export default function HomePage() {
-    return(
-        <div>This is the hom</div>
-    )
+    return (
+        <div className="text-blue-700 font-bold">
+            Hello World
+        </div>
+    );
 }
