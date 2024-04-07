@@ -1,6 +1,8 @@
 import HomePage from "./pages/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CommunityPage from "./pages/CommunityPage";
+import ProfilesPage from "./pages/ProfilesPage";
+import FriendsPage from "./pages/FriendsPage";
 
 
 function App() {
@@ -10,7 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/community" element={<CommunityPage />}></Route>
-
+          <Route path="/profiles" element={<ProfilesPage />}></Route>
+          <Route path="/friends" element={<FriendsPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
