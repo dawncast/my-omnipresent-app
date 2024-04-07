@@ -1,7 +1,18 @@
+import HomePage from "./pages/HomePage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CommunityPage from "./pages/CommunityPage";
+
+
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-blue-200">Hello world!</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/community" element={<CommunityPage />}></Route>
+
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
