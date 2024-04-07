@@ -97,6 +97,8 @@ const people = [
 
 export default function Friends() {
   return (
+    <><div className='text-lg font-bold flex-auto mx-2 my-2 mb-5'>PEOPLE NEARBY </div>
+    <h2 className='mx-2 mb-5 text-gray-500 text-sm font-medium'>Unite through Arc'teryx: Where Connections Forge Friendships</h2>
     <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {people.map((person) => (
         <li key={person.email} className="col-span-1 divide-y divide-gray-200 rounded-lg bg-white shadow">
@@ -138,5 +140,6 @@ export default function Friends() {
         </li>
       ))}
     </ul>
+    </>
   )
 }

@@ -12,8 +12,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-          <Route path="/community" element={<CommunityPage />}></Route>
+          <Route path="/" element={<CommunityPage />}></Route>
           <Route path="/your-communities/northvanhiking" element={<NorthVanHikingPage />}></Route>
           <Route path="/friends" element={<FriendsPage />}></Route>
           <Route path="/calendar" element={<CalendarPage />}></Route>

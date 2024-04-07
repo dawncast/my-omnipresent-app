@@ -14,7 +14,7 @@ import {
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
-  { name: 'Communities', href: '/community', icon: HomeIcon, current: false },
+  { name: 'Communities', href: '/', icon: HomeIcon, current: false },
   { name: 'Friends', href: '/friends', icon: UsersIcon, current: false },
   { name: 'Calendar', href: '/calendar', icon: CalendarIcon, current: false },
   { name: 'Chat', href: '#', icon: ChatBubbleLeftRightIcon, current: false },
