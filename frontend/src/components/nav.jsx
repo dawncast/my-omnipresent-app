@@ -5,12 +5,10 @@ import {
   Bars3Icon,
   BellIcon,
   CalendarIcon,
-  ChartPieIcon,
   Cog6ToothIcon,
-  DocumentDuplicateIcon,
-  FolderIcon,
   HomeIcon,
   UsersIcon,
+  ChatBubbleLeftRightIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
@@ -19,12 +17,12 @@ const navigation = [
   { name: 'Communities', href: '/community', icon: HomeIcon, current: true },
   { name: 'Profiles', href: '/profiles', icon: UsersIcon, current: false },
   { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
-  { name: 'Chat', href: '#', icon: FolderIcon, current: false },
+  { name: 'Chat', href: '#', icon: ChatBubbleLeftRightIcon, current: false },
 ]
-const teams = [
-  { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
-  { id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false },
-  { id: 3, name: 'Workcation', href: '#', initial: 'W', current: false },
+const yourCommunities = [
+  { id: 1, name: 'North Van Hiking', href: '/your-communities/northvanhiking', initial: 'NV', current: false },
+  { id: 2, name: 'Happy Runners', href: '#', initial: 'HR', current: false },
+  { id: 3, name: 'Skiing Squad', href: '#', initial: 'SS', current: false },
 ]
 const userNavigation = [
   { name: 'Your profile', href: '#' },
@@ -128,14 +126,14 @@ export default function Nav({feed}) {
                             </ul>
                           </li>
                           <li>
-                            <div className="text-xs font-semibold leading-6 text-gray-400">Your teams</div>
+                            <div className="text-xs font-semibold leading-6 text-gray-400">Your communities</div>
                             <ul role="list" className="-mx-2 mt-2 space-y-1">
-                              {teams.map((team) => (
-                                <li key={team.name}>
+                              {yourCommunities.map((community) => (
+                                <li key={community.name}>
                                   <a
-                                    href={team.href}
+                                    href={community.href}
                                     className={classNames(
-                                      team.current
+                                      community.current
                                         ? 'bg-gray-50 text-indigo-600'
                                         : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
                                       'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
@@ -143,15 +141,15 @@ export default function Nav({feed}) {
                                   >
                                     <span
                                       className={classNames(
-                                        team.current
+                                        community.current
                                           ? 'text-indigo-600 border-indigo-600'
                                           : 'text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600',
                                         'flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white'
                                       )}
                                     >
-                                      {team.initial}
+                                      {community.initial}
                                     </span>
-                                    <span className="truncate">{team.name}</span>
+                                    <span className="truncate">{community.name}</span>
                                   </a>
                                 </li>
                               ))}
@@ -218,14 +216,14 @@ export default function Nav({feed}) {
                     </ul>
                   </li>
                   <li>
-                    <div className="text-xs font-semibold leading-6 text-gray-400">Your teams</div>
+                    <div className="text-xs font-semibold leading-6 text-gray-400">Your communities</div>
                     <ul role="list" className="-mx-2 mt-2 space-y-1">
-                      {teams.map((team) => (
-                        <li key={team.name}>
+                      {yourCommunities.map((community) => (
+                        <li key={community.name}>
                           <a
-                            href={team.href}
+                            href={community.href}
                             className={classNames(
-                              team.current
+                              community.current
                                 ? 'bg-gray-50 text-indigo-600'
                                 : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
                               'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
@@ -233,15 +231,15 @@ export default function Nav({feed}) {
                           >
                             <span
                               className={classNames(
-                                team.current
+                                community.current
                                   ? 'text-indigo-600 border-indigo-600'
                                   : 'text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600',
                                 'flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white'
                               )}
                             >
-                              {team.initial}
+                              {community.initial}
                             </span>
-                            <span className="truncate">{team.name}</span>
+                            <span className="truncate">{community.name}</span>
                           </a>
                         </li>
                       ))}
