@@ -2,58 +2,60 @@ import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/20/solid'
 
 const communities = [
   {
-    name: 'Bouldering Meetup',
-    title: 'Location: The Hive Bouldering Gym',
-    role: '2 days away',
+    
+    name: 'Bouldering Club',
+    title: 'Location: Vancouver',
+    role: '46 members',
     email: '',
     telephone: '+1-202-555-0170',
     imageUrl:
       'https://particle.scitech.org.au/wp-content/uploads/2019/11/bouldering_feature.jpg',
+    
   },
   {
     name: 'Ski and Snowboard club',
-    title: 'Location: Cypress Mountain',
-    role: '2 days away',
+    title: 'Location: Whistler',
+    role: '87 members',
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
       'https://www.switchbacktravel.com/sites/default/files/articles%20/Snowboarding%20in%20powder%20%28women%27s%20snowboard%20pants%20m%29.jpg',
   },
   {
-    name: 'Trek around Grouse Mountain',
-    title: 'Location: Grouse Mountain',
-    role: '4 days away',
+    name: 'North Van Hiking',
+    title: 'Location: North Vancouver',
+    role: '36 members',
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
       'https://bearfoottheory.com/wp-content/uploads/2020/09/Montana_Whitefish-Ski-Resort-22-Hiking-Gear-oboz.jpg',
   },
   {
-    name: 'Cycling Adventure',
+    name: 'Women\'s Only Cycling Club',
     title: 'Location: Yaletown SeaWall',
-    role: '6 days away',
+    role: '26 members',
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
-      'https://hips.hearstapps.com/hmg-prod/images/cyclist-on-the-col-de-la-colombiere-in-the-french-royalty-free-image-1650363392.jpg?crop=0.604xw:0.882xh;0.111xw,0.103xh&resize=640:*',
+      'https://teamatomica.com/app/uploads/2019/05/Womens-Cycling-Clinic.jpg',
   },
   {
-    name: 'Women\'s Exclusive Hike',
-    title: 'Location: Panorama Ridge',
-    role: '9 days away',
+    name: 'Happy Runners Club',
+    title: 'Location: Downtown Vancouver',
+    role: '136 members',
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
-      'https://www.getoutsideadventures.ca/images/headers/GetOutside-Backpacking-Instructing-Guide-Mountains-Women-lg.jpg',
+      'https://runologie.run/wp-content/uploads/2022/06/DBA4DC4E-E37E-4BF4-81B7-8E683C798639.jpg',
   },
   {
-    name: 'Nature Walk',
-    title: 'Location: Stanley Park',
-    role: '14 days away',
+    name: 'Skiing Squad',
+    title: 'Location: Grouse Mountain',
+    role: '112 members',
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
-      'https://www.antiloneliness.com/uploads/4/8/3/7/48374419/published/untitled-design-2.jpg?1624538993',
+      'https://www.grousemountain.com/media/W1siZiIsIjIwMjMvMTAvMjAvMTAvMDUvNDEvMjJjNDBlMzMtYjFjZS00YzllLWIyNmEtMjhiMDA4ZWE2ZDQ3L1NLSS1DQU1QLTMwMS5wbmciXSxbInAiLCJ0aHVtYiIsIjk2MHg0NzBcdTAwM2UiXV0?sha=f1bbc1335c7c9ac0',
   },
 
   // More people...
@@ -90,10 +92,11 @@ export default function Communities() {
                 >
 
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
+  <path strokeLinecap="round" strokeLinejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
 </svg>
 
-                  RSVP
+
+                  Join
                 </a>
               </div>
               <div className="-ml-px flex w-0 flex-1">
