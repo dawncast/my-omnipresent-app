@@ -47,7 +47,7 @@ const people = [
       'https://www.getoutsideadventures.ca/images/headers/GetOutside-Backpacking-Instructing-Guide-Mountains-Women-lg.jpg',
   },
   {
-    name: 'Nature ',
+    name: 'Nature Walk',
     title: 'Location: Stanley Park',
     role: '14 days away',
     email: 'janecooper@example.com',
