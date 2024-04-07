@@ -176,8 +176,8 @@ export default function Nav({feed}) {
               <div className="flex h-16 shrink-0 items-center">
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt="Your Company"
+                  src="https://seeklogo.com/images/A/arc-teryx-logo-992BC4B799-seeklogo.com.png"
+                  alt="Acteryx Logo"
                 />
               </div>
               <nav className="flex flex-1 flex-col">
