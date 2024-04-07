@@ -80,11 +80,11 @@ export default function Nav({feed}) {
                         </button>
                       </div>
                     </Transition.Child>
-                    <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6 pb-4">
+                    <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6 pb-4">
                       <div className="flex h-16 shrink-0 items-center">
                         <img
                           className="h-8 w-auto"
-                          src="https://seeklogo.com/images/A/arc-teryx-logo-992BC4B799-seeklogo.com.png"
+                          src="https://images.arcteryx.com/careers/f17/logo.png"
                           alt="Your Company"
                         />
                       </div>
@@ -170,11 +170,11 @@ export default function Nav({feed}) {
           {/* Static sidebar for desktop */}
           <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
             {/* Sidebar component, swap this element with another sidebar if you like */}
-            <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-white px-6 pb-4">
+            <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-black px-6 pb-4">
               <div className="flex h-16 shrink-0 items-center">
                 <img
                   className="h-8 w-auto"
-                  src="https://seeklogo.com/images/A/arc-teryx-logo-992BC4B799-seeklogo.com.png"
+                  src="https://images.arcteryx.com/careers/f17/logo.png"
                   alt="Acteryx Logo"
                 />
               </div>
@@ -188,14 +188,14 @@ export default function Nav({feed}) {
                             href={item.href}
                             className={classNames(
                               item.current
-                                ? 'bg-gray-50 text-indigo-600'
-                                : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
+                                ? 'bg-gray-50 text-white'
+                                : 'text-white  ',
                               'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                             )}
                           >
                             <item.icon
                               className={classNames(
-                                item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-indigo-600',
+                                item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-white',
                                 'h-6 w-6 shrink-0'
                               )}
                               aria-hidden="true"
@@ -215,16 +215,16 @@ export default function Nav({feed}) {
                             href={community.href}
                             className={classNames(
                               community.current
-                                ? 'bg-gray-50 text-indigo-600'
-                                : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50',
+                                ? 'bg-gray-50 text-white'
+                                : 'text-white',
                               'group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold'
                             )}
                           >
                             <span
                               className={classNames(
                                 community.current
-                                  ? 'text-indigo-600 border-indigo-600'
-                                  : 'text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600',
+                                  ? 'text-white border-indigo-600'
+                                  : 'text-gray-400 border-gray-200 group-hover:text-black',
                                 'flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white'
                               )}
                             >

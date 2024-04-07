@@ -1,17 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+
 const incentives = [
     {
       name: 'Date and Time:',
@@ -37,6 +24,10 @@ const incentives = [
   
   export default function EventDetails() {
     return (
+      <>
+
+      <div className="text-2xl font-bold text-gray-900">UPCOMING EVENTS</div>
+
       <div className="bg-gray-50">
         <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
           <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
@@ -75,6 +66,7 @@ const incentives = [
           </div>
         </div>
       </div>
+      </>
     )
   }
   
