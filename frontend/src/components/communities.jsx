@@ -93,7 +93,7 @@ export default function Communities() {
               </div>
               <div className="-ml-px flex w-0 flex-1">
                 <a
-                  href={`tel:${person.telephone}`}
+                  href={'/event-details'}
                   className="relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-4 text-sm font-semibold text-gray-900"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
