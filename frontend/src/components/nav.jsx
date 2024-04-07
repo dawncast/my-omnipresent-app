@@ -40,14 +40,6 @@ export default function Nav({feed}) {
 
     return (
         <>
-        {/*
-          This example requires updating your template:
-  
-          ```
-          <html class="h-full bg-white">
-          <body class="h-full">
-          ```
-        */}
         <div>
           <Transition.Root show={sidebarOpen} as={Fragment}>
             <Dialog as="div" className="relative z-50 lg:hidden" onClose={setSidebarOpen}>
@@ -90,12 +82,11 @@ export default function Nav({feed}) {
                         </button>
                       </div>
                     </Transition.Child>
-                    {/* Sidebar component, swap this element with another sidebar if you like */}
                     <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6 pb-4">
                       <div className="flex h-16 shrink-0 items-center">
                         <img
                           className="h-8 w-auto"
-                          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                          src="https://seeklogo.com/images/A/arc-teryx-logo-992BC4B799-seeklogo.com.png"
                           alt="Your Company"
                         />
                       </div>
