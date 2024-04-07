@@ -37,7 +37,7 @@ const people = [
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
-      'https://lh5.googleusercontent.com/proxy/9in_6zINqqeGqOTrWgfayhz4K2I2k8vZPJRK-AHlzLbPeSIHKoWmNM7P8VwPZ50iIYYV3oDbOwyeM9N9q00iGAyQbz5-rDBh3tpZAx_UGyfio1hHLXZGT3Z72h1X3dE_oDmFGyRi0QEhFZkA',
+      'https://teamatomica.com/app/uploads/2019/05/Womens-Cycling-Clinic.jpg',
   },
   {
     name: 'Happy Runners Club',
@@ -46,7 +46,7 @@ const people = [
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
-      'https://www.getoutsideadventures.ca/images/headers/GetOutside-Backpacking-Instructing-Guide-Mountains-Women-lg.jpg',
+      'https://runologie.run/wp-content/uploads/2022/06/DBA4DC4E-E37E-4BF4-81B7-8E683C798639.jpg',
   },
   {
     name: 'Skiing Squad',
@@ -55,7 +55,7 @@ const people = [
     email: 'janecooper@example.com',
     telephone: '+1-202-555-0170',
     imageUrl:
-      'https://www.antiloneliness.com/uploads/4/8/3/7/48374419/published/untitled-design-2.jpg?1624538993',
+      'https://www.grousemountain.com/media/W1siZiIsIjIwMjMvMTAvMjAvMTAvMDUvNDEvMjJjNDBlMzMtYjFjZS00YzllLWIyNmEtMjhiMDA4ZWE2ZDQ3L1NLSS1DQU1QLTMwMS5wbmciXSxbInAiLCJ0aHVtYiIsIjk2MHg0NzBcdTAwM2UiXV0?sha=f1bbc1335c7c9ac0',
   },
 
   // More people...
