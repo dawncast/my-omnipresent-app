@@ -45,22 +45,22 @@ const days = [
   { date: '2022-01-04', isCurrentMonth: true },
   { date: '2022-01-05', isCurrentMonth: true },
   { date: '2022-01-06', isCurrentMonth: true },
-  { date: '2022-01-07', isCurrentMonth: true },
+  { date: '2022-01-07', isCurrentMonth: true, isSelected: true },
   { date: '2022-01-08', isCurrentMonth: true },
   { date: '2022-01-09', isCurrentMonth: true },
-  { date: '2022-01-10', isCurrentMonth: true },
+  { date: '2022-01-10', isCurrentMonth: true, isToday: true },
   { date: '2022-01-11', isCurrentMonth: true },
-  { date: '2022-01-12', isCurrentMonth: true, isToday: true },
+  { date: '2022-01-12', isCurrentMonth: true },
   { date: '2022-01-13', isCurrentMonth: true },
   { date: '2022-01-14', isCurrentMonth: true },
   { date: '2022-01-15', isCurrentMonth: true },
-  { date: '2022-01-16', isCurrentMonth: true },
+  { date: '2022-01-16', isCurrentMonth: true, isToday: true },
   { date: '2022-01-17', isCurrentMonth: true },
   { date: '2022-01-18', isCurrentMonth: true },
   { date: '2022-01-19', isCurrentMonth: true },
   { date: '2022-01-20', isCurrentMonth: true },
   { date: '2022-01-21', isCurrentMonth: true },
-  { date: '2022-01-22', isCurrentMonth: true, isSelected: true },
+  { date: '2022-01-22', isCurrentMonth: true },
   { date: '2022-01-23', isCurrentMonth: true },
   { date: '2022-01-24', isCurrentMonth: true },
   { date: '2022-01-25', isCurrentMonth: true },
@@ -85,7 +85,7 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <div>
-      <h2 className="text-base font-semibold leading-6 text-gray-900">Upcoming events</h2>
+      <h2 className='text-lg font-bold flex-auto mx-2 my-2 mb-5'>UPCOMING EVENTS</h2>
       <div className="lg:grid lg:grid-cols-12 lg:gap-x-16">
         <div className="mt-10 text-center lg:col-start-8 lg:col-end-13 lg:row-start-1 lg:mt-9 xl:col-start-9">
           <div className="flex items-center text-gray-900">
